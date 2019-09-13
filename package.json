@@ -1,6 +1,6 @@
 {
-  "name": "@postillon/react-native-instagram-zoomable",
-  "version": "1.0.1",
+  "name": "instagram-zoom-react-native",
+  "version": "1.0.2",
   "description": "A component to implement the Instagram Zoom-Draggable-Effect for any component in React-Native",
   "main": "index.js",
   "private": false,
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/postillonmedia/react-native-instagram-zoomable.git"
+    "url": "git+https://github.com/vignesarul/react-native-instagram-zoomable.git"
   },
   "keywords": [
     "react-native",
@@ -23,7 +23,7 @@
   "author": "Daniel Lang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/postillonmedia/react-native-instagram-zoomable/issues"
+    "url": "https://github.com/vignesarul/react-native-instagram-zoomable/issues"
   },
-  "homepage": "https://github.com/postillonmedia/react-native-instagram-zoomable#readme"
+  "homepage": "https://github.com/vignesarul/react-native-instagram-zoomable#readme"
 }
