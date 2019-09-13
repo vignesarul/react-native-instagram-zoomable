@@ -80,12 +80,14 @@ export class InstagramProvider extends PureComponent {
             selected,
             isDragging: true,
         });
+        if(this.props.onStartHandler) { this.props.onStartHandler() }
     };
 
     onGestureRelease = () => {
         this.setState({
             isDragging: false
         });
+        if(this.props.onEndHandler) { this.props.onEndHandler() }
     };
 
     renderSelectedElement = () => {
