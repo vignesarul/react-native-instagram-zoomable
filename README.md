@@ -14,13 +14,14 @@ npm i --save https://github.com/postillonmedia/react-native-instagram-zoomable.g
 
 ### Usage
 
-#### InstagramProvider
-props:
-* children
-* renderBackground: _(selected: , scaleValue, gesturePosition) => React.Component_
-
-#### ElementContainer
-
+```shell
+<InstagramProvider onStartHandler={this.onZoomStartHandler} onEndHandler={this.onZoomEndHandler}>
+  <ElementContainer>
+    <Image source="..." />
+  <ElementContainer>
+</InstagramProvider>
+            
+```
 
 
 ### Thank you
