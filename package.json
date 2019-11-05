@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vignesarul/react-native-instagram-zoomable.git"
+    "url": "git+https://github.com/bubliotutika/react-native-instagram-zoomable.git"
   },
   "keywords": [
     "react-native",
@@ -23,7 +23,7 @@
   "author": "Daniel Lang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vignesarul/react-native-instagram-zoomable/issues"
+    "url": "https://github.com/bubliotutika/react-native-instagram-zoomable/issues"
   },
-  "homepage": "https://github.com/vignesarul/react-native-instagram-zoomable#readme"
+  "homepage": "https://github.com/bubliotutika/react-native-instagram-zoomable#readme"
 }
