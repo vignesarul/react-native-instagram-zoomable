@@ -174,6 +174,9 @@ export class ElementContainer extends PureComponent {
         let currentDistance = getDistance(touches);
         let initialDistance = getDistance(this._initialTouches);
         let newScale = getScale(currentDistance, initialDistance);
+
+        if (newScale < 1) newScale = 1
+
         scaleValue.setValue(newScale);
     };
 
